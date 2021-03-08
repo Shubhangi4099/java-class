@@ -3,16 +3,16 @@ public class Person{
 	String name;
 
 	public Person(int a, String n) {
-		age = a;
-		name = n;
+		age = c;
+		name = d;
 	}
 
 	public void drive(){
 		if  (age < 18) {
-			System.out.println("Can Drive");
+			System.out.println("Can Draw");
 		}
 		else {
-			System.out.println("Learn Driving");
+			System.out.println("LEARN DRAWING");
 		}
 	}
 	
@@ -20,7 +20,6 @@ public class Person{
 	public static void main(String[] args){
 		Person p1 = new Person(18, "shubhangi");
 		Person p2 = new Person(16, "SEJAL");
-
 		p1.drive();
 		p2.drive();
 	}
