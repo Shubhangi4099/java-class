@@ -3,23 +3,23 @@ public class Person{
 	String name;
 
 	public Person(int a, String n) {
-		age = a;
-		name = n;
+		age = c;
+		name = d;
 	}
 
 	public void drive(){
 		if  (age < 18) {
-			System.out.println("Can Drive");
+			System.out.println("Can Draw");
 		}
 		else {
-			System.out.println("Learn Driving");
+			System.out.println("LEARN DRAWING");
 		}
 	}
 	
 	//main method
 	public static void main(String[] args){
-		Person p1 = new Person(18, "shubhangi");
-		Person p2 = new Person(16, "sanju");
+		Person p1 = new Person(21, "priyanka");
+		Person p2 = new Person(16, "piu");
 
 		p1.drive();
 		p2.drive();
