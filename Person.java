@@ -18,8 +18,8 @@ public class Person{
 	
 	//main method
 	public static void main(String[] args){
-		Person p1 = new Person(18, "shubhangi");
-		Person p2 = new Person(16, "sanju");
+		Person p1 = new Person(18, "Ashwini");
+		Person p2 = new Person(16, "shubhangi");
 
 		p1.drive();
 		p2.drive();
